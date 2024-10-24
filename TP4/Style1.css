@@ -1,13 +1,13 @@
 .fond{
-    background-color:#00ffd5;
+    background-color:turquoise;
     text-align: center;
 }
 
 .block1{
-    background-color:#14727b;
+    background-color:lightseagreen;
     width: 380px;
     height: 300px;
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid black;
     border-radius: 2%;
     margin: 1%;
     float: left;
@@ -20,11 +20,11 @@
     width: 420px;
     height: 60px;
     text-align: center;
-    background-color: rgb(0, 213, 255);
+    background-color: turquoise;
     margin-left: 4%;
     margin: 5px;
     border-radius: 2px;
-    border: 3px solid #000000;
+    border: 3px solid black;
 
 }
 
@@ -33,9 +33,9 @@ header{
     width: 1200px;
     height: 70px;
     text-align: center;
-    background-color:rgb(0, 255, 213);
+    background-color:turquoise;
     border-radius: 4px;
-    border: 3px solid #000000;
+    border: 3px solid black;
     margin: auto;
     margin-left: auto;
     margin-right: auto;
@@ -47,9 +47,9 @@ footer{
     width: 1200px;
     height: 70px;
     text-align: center;
-    background-color: rgb(0, 255, 255);
+    background-color: turquoise;
     border-radius: 4px;
-    border: 3px solid #000000;
+    border: 3px solid black;
     margin: auto;
     clear: both;
 
@@ -58,5 +58,4 @@ footer{
 img{
     height: 200px;
     width: 250px;
-
 }
