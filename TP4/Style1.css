@@ -1,14 +1,14 @@
-.body{
+body{
     background-color: mediumpurple;
     margin: auto;
 }
 
-.fond{
+fond{
     background-color:turquoise;
     text-align: center;
 }
 
-.block1{
+block1{
     background-color:lightseagreen;
     width: 380px;
     height: 300px;
@@ -21,7 +21,7 @@
 }
 
 
-.border1{
+border1{
     width: 420px;
     height: 60px;
     text-align: center;
