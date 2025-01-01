@@ -1,0 +1,53 @@
+body {
+    background-image: url('SMK.gif');
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: rgb(164, 60, 255);
+    margin: 0;
+    padding: 0;
+}
+
+/* Centrage et alignement */
+center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Titres principaux */
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black;
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 2rem;
+    font-style: italic;
+    text-shadow: 1px 1px 3px black;
+    margin: 5px 0;
+}
+
+/* Liens */
+a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #0091ff;
+    margin: 5px 0;
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+a:hover {
+    color: #8000ff;
+    text-shadow: 0px 0px 10px #8000ff;
+}
+
+/* Font spécifique */
+font {
+    font-size: 1.5rem;
+    text-align: center;
+}
