@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz d'auto-formation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Quizz d'auto-formation</h1>
+    </header>
+
+    <main>
+        <form id="quiz-form">
+            <div class="question">
+                <p>1. Quelle est la capitale de la France ?</p>
+                <label><input type="radio" name="q1" value="Marseille"> Marseille</label>
+                <label><input type="radio" name="q1" value="Lille"> Lille</label>
+                <label><input type="radio" name="q1" value="Lyon"> Lyon</label>
+                <label><input type="radio" name="q1" value="Paris"> Paris</label>
+                <label><input type="radio" name="q1" value="Toulouse"> Toulouse</label>
+            </div>
+
+            <div class="question">
+                <p>2. Quelle est la plus grande planète du système solaire ?</p>
+                <label><input type="radio" name="q2" value="Mars"> Mars</label>
+                <label><input type="radio" name="q2" value="Nepturne"> Nepturne</label>
+                <label><input type="radio" name="q2" value="Jupiter"> Jupiter</label>
+                <label><input type="radio" name="q2" value="Saturne"> Saturne</label>
+                <label><input type="radio" name="q2" value="Terre"> Terre</label>
+            </div>
+
+            <!-- Ajouter 8 autres questions de manière similaire -->
+
+            <div class="buttons">
+                <button type="button" id="btn-correction">Correction</button>
+                <button type="button" id="btn-corrige">Corrigé</button>
+                <button type="reset" id="btn-effacer">Effacer</button>
+            </div>
+        </form>
+
+        <div id="result"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
