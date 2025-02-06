@@ -34,16 +34,16 @@ document.getElementById('btn-correction').addEventListener('click', function() {
   document.getElementById('btn-corrige').addEventListener('click', function() {
     // Affiche toutes les réponses correctes
     const correctAnswers = {
-      q1: 'Couche 3 - Réseau',
-      q2: 'Filtrer le trafic entrant et sortant',
-      q3: 'Éviter de dupliquer le code',
-      q4: 'Une colonne qui identifie de manière unique une ligne',
-      q5: 'HyperText Transfer Protocol Secure',
-      q6: 'Un planning des tâches du projet',
-      q7: 'git clone',
-      q8: 'Il attribue des adresses IP dynamiques',
-      q9: 'HTTPS chiffre les données échangées',
-      q10: 'Créer des interfaces web responsives'
+      q1: 'Michelangelo',
+      q2: 'Leon',
+      q3: 'casquette',
+      q4: 'Makakosanpo',
+      q5: 'Eminem',
+      q6: 'Shadow',
+      q7: 'cote est',
+      q8: 'Luxembourg',
+      q9: 'Real Madrid',
+      q10: 'Naruto'
     };
   
     for (let question in correctAnswers) {
