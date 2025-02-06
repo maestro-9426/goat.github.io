@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QCM BTS SIO</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Appliquer box-sizing globalement */
+    * {
+      box-sizing: border-box;
+    }
+
+    /* Vidéo en fond */
+    body, html {
+      height: 100%;
+      margin: 0;
+      font-family: Arial, sans-serif; /* Ajouter une police lisible */
+      overflow: hidden; /* Désactiver le défilement global de la page */
+    }
+
+    .video-background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Assure que la vidéo couvre tout l'écran */
+      z-index: -1; /* Placer la vidéo derrière tout le contenu */
+    }
+
+    /* Style du QCM */
+    h1 {
+      text-align: center;
+      color: rgb(0, 0, 0);
+      font-size: 2.5em;
+      margin-top: 20px;
+    }
+
+    #qcm-form {
+      width: 80%; /* Formulaire plus large */
+      margin: 20px auto;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.6); /* Fond semi-transparent */
+      color: white;
+      border-radius: 15px;
+      overflow-y: auto; /* Permet le défilement dans le formulaire */
+      max-height: 90vh; /* Limiter la hauteur du formulaire */
+    }
+
+    /* Bordure néon autour du div de questions */
+    .question {
+      border: 2px solid #000; /* Bordure noire */
+      border-radius: 5px;
+      padding: 15px;
+      margin: 15px 0;
+    }
+
+    /* Boutons */
+    .actions {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #000000;
+      color: rgb(255, 255, 255);
+      border: 2px solid #000;
+      cursor: pointer;
+      margin: 5px;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background-color: #000000;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Vidéo en fond -->
+  <video class="video-background" autoplay loop muted>
+    <source src="FD.mp4" type="video/mp4">
+    Votre navigateur ne supporte pas la vidéo.
+  </video>
+
+  <h1>QCM : BTS SIO</h1>
+  <form id="qcm-form">
+    <fieldset>
+      <legend>Questions du QCM</legend>
+
+      <!-- Question 1 -->
+      <div class="question">
+        <p>1. Qui est la tortue avec le bandeau Orange ?</p>
+        <label><input type="radio" name="q1" value="0"> Leonardo</label><br>
+        <label><input type="radio" name="q1" value="0"> Raphael</label><br>
+        <label><input type="radio" name="q1" value="1"> Michelangelo</label>
+      </div>
+
+      <!-- Question 2 -->
+      <div class="question">
+        <p>2. Qui est le Meilleur Ami de Franklin Saint</p>
+        <label><input type="radio" name="q2" value="1"> Leon</label><br>
+        <label><input type="radio" name="q2" value="0"> Kevin</label><br>
+        <label><input type="radio" name="q2" value="0"> Teddy</label>
+      </div>
+
+      <!-- Question 3 -->
+      <div class="question">
+        <p>3. Quel couvre-chef ont les frères Mario ?</p>
+        <label><input type="radio" name="q3" value="0"> bob</label><br>
+        <label><input type="radio" name="q3" value="1"> casquette</label><br>
+        <label><input type="radio" name="q3" value="0"> bonnet</label>
+      </div>
+
+      <!-- Question 4 -->
+      <div class="question">
+        <p>4. quel technique d'attaque utilise Piccolo ?</p>
+        <label><input type="radio" name="q4" value="0"> Kamehamehah</label><br>
+        <label><input type="radio" name="q4" value="1"> Makakosanpo</label><br>
+        <label><input type="radio" name="q4" value="0"> Final Flash</label>
+      </div>
+
+      <!-- Question 5 -->
+      <div class="question">
+        <p>5. Qui s'appele Slim Shady ?</p>
+        <label><input type="radio" name="q5" value="1"> Eminem</label><br>
+        <label><input type="radio" name="q5" value="0"> Lil Wayne</label><br>
+        <label><input type="radio" name="q5" value="0"> Kanye West</label>
+      </div>
+
+      <!-- Question 6 -->
+      <div class="question">
+        <p>6. Qui s'appele l'Herison Noir ?</p>
+        <label><input type="radio" name="q6" value="0"> Sonic</label><br>
+        <label><input type="radio" name="q6" value="0"> Silver</label><br>
+        <label><input type="radio" name="q6" value="1"> Shadow</label>
+      </div>
+
+      <!-- Question 7 -->
+      <div class="question">
+        <p>7. Quelle cote vien Nicki Minaj ?</p>
+        <label><input type="radio" name="q7" value="0"> cote ouest</label><br>
+        <label><input type="radio" name="q7" value="1"> cote est</label><br>
+        <label><input type="radio" name="q7" value="0"> cote sud</label>
+      </div>
+
+      <!-- Question 8 -->
+      <div class="question">
+        <p>8. La Capitale de Luxembourg ?</p>
+        <label><input type="radio" name="q8" value="0"> Wiltz</label><br>
+        <label><input type="radio" name="q8" value="0"> Remich</label><br>
+        <label><input type="radio" name="q8" value="1"> Luxembourg</label>
+      </div>
+
+      <!-- Question 9 -->
+      <div class="question">
+        <p>9. Qui est le Rival du FC Barcelonne ?</p>
+        <label><input type="radio" name="q9" value="0"> Villareal</label><br>
+        <label><input type="radio" name="q9" value="0"> Actletico Madrid</label><br>
+        <label><input type="radio" name="q9" value="1"> Real Madrid</label>
+      </div>
+
+      <!-- Question 10 -->
+      <div class="question">
+        <p>10. Quel Ninja utilise des techniques isensé ?</p>
+        <label><input type="radio" name="q10" value="0"> Sasuke</label><br>
+        <label><input type="radio" name="q10" value="1"> Naruto</label><br>
+        <label><input type="radio" name="q10" value="0"> Sakura</label>
+      </div>
+    </fieldset>
+
+    <div class="actions">
+      <button type="button" id="btn-correction">Correction</button>
+      <button type="button" id="btn-corrige">Afficher le Corrigé</button>
+      <button type="button" id="btn-effacer">Effacer</button>
+      <button type="button" id="btn-retour"><a href="../mission.html">Retour </a></button>
+    </div>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
